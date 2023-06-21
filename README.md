@@ -37,7 +37,7 @@ api
 
 To fetch the definition for a specific word, use the following structure for your requests:
 
-```http
+```
 <BASE URL>/<FIRST LETTER>/<FIRST TWO LETTERS>.json
 ```
 
@@ -45,7 +45,7 @@ Where `<BASE URL>` is the base URL mentioned above, `<FIRST LETTER>` is the firs
 
 For example, to get the definition for the word **awesome**, fetch the following file:
 
-```http
+```
 https://raw.githubusercontent.com/mhollingshead/open-dictionary/main/api/a/aw.json
 ```
 
