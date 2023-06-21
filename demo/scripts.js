@@ -1,4 +1,4 @@
-const baseURL = '../api';
+const baseURL = 'https://raw.githubusercontent.com/mhollingshead/open-dictionary/main/api';
 
 const getDefinition = async (word) => {
     const dir = word.slice(0, 1);
